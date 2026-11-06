@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova - Gizlilik ve KVKK</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #0B141A;
+            color: #E9EDEF;
+            line-height: 1.7;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #53BDEB;
+            text-align: center;
+            font-size: 2.2em;
+            margin-bottom: 10px;
+            text-shadow: 0 2px 15px rgba(83, 189, 235, 0.4);
+        }
+        .subtitle {
+            text-align: center;
+            color: #8696A0;
+            font-size: 0.9em;
+            margin-bottom: 30px;
+        }
+        .card {
+            background-color: #111B21;
+            border-radius: 16px;
+            padding: 22px;
+            margin-bottom: 20px;
+            border: 1px solid rgba(83, 189, 235, 0.15);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+        }
+        h2 {
+            color: #53BDEB;
+            font-size: 1.3em;
+            margin-top: 0;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        p { margin-bottom: 15px; color: #D1D7DB; }
+        .highlight { color: #25D366; font-weight: bold; }
+        .warning {
+            color: #FFB74D;
+            font-weight: bold;
+            background-color: rgba(255, 183, 77, 0.1);
+            padding: 10px;
+            border-radius: 8px;
+            border-left: 4px solid #FFB74D;
+        }
+        ul { padding-left: 20px; color: #D1D7DB; }
+        li { margin-bottom: 10px; }
+        .separator {
+            border: 0;
+            height: 2px;
+            background: linear-gradient(to right, transparent, #53BDEB, transparent);
+            margin: 30px 0;
+        }
+        .checkbox-area {
+            background-color: #0B141A;
+            padding: 15px;
+            border-radius: 12px;
+            border: 1px solid #53BDEB;
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .checkbox-area input {
+            width: 20px;
+            height: 20px;
+            accent-color: #53BDEB;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid rgba(83, 189, 235, 0.3);
+            color: #8696A0;
+            font-size: 0.9em;
+        }
+        .footer a { color: #53BDEB; text-decoration: none; font-weight: bold; }
+        .emoji { font-size: 1.2em; }
+    </style>
+</head>
+<body>
+
+    <h1>Nova Gizlilik ve KVKK</h1>
+    <p class="subtitle">Son Güncelleme: 6 Kasım 2026</p>
+
+    <div class="card">
+        <h2><span class="emoji">👋</span> Merhaba, Nova'ya Hoş Geldin!</h2>
+        <p>Nova; WhatsApp, Instagram, Facebook ve YouTube'dan ilham alan, ancak <span class="highlight">tek farkı daha mavi ve daha tatlı</span> olan yeni nesil bir mesajlaşma, arama ve içerik paylaşım uygulamasıdır. Bu sayfa, senin verilerini nasıl koruduğumuzu şeffaf bir şekilde anlatmak için burada. 💙</p>
+    </div>
+
+    <!-- KVKK AYDINLATMA METNİ -->
+    <div class="card">
+        <h2><span class="emoji">📋</span> KVKK Aydınlatma Metni</h2>
+        <p><strong>Veri Sorumlusu:</strong> Nova (Murat Alp Yıldırım)</p>
+        <p>6698 sayılı Kişisel Verilerin Korunması Kanunu ("KVKK") uyarınca, kişisel verileriniz aşağıda açıklanan kapsamda işlenmektedir:</p>
+        <ul>
+            <li><strong>İşlenen Veriler:</strong> Ad, e-posta, doğum tarihi, profil resmi, sohbet içerikleri, medya dosyaları ve kullanım verileri.</li>
+            <li><strong>İşleme Amaçları:</strong> Hesap oluşturma, kimlik doğrulama, mesajlaşma hizmeti sunma, uygulama güvenliği ve performans iyileştirme.</li>
+            <li><strong>Hukuki Sebepler:</strong> Sözleşmenin kurulması ve ifası, hukuki yükümlülüklerin yerine getirilmesi ve meşru menfaatlerimiz.</li>
+            <li><strong>Aktarım:</strong> Verileriniz, altyapı hizmeti için <strong>Google Firebase (yurt dışı sunucular)</strong> üzerinde saklanmaktadır. Yasal zorunluluklar dışında üçüncü taraflarla paylaşılmaz.</li>
+            <li><strong>Saklama Süresi:</strong> Hesabınız aktif olduğu sürece saklanır. Hesap silme talebinizde en geç <strong>30 gün içinde</strong> kalıcı olarak silinir.</li>
+        </ul>
+        <p><strong>Haklarınız:</strong> KVKK'nın 11. maddesi kapsamındaki haklarınızı kullanmak için <a href="mailto:muratalp200812@gmail.com" style="color: #53BDEB;">muratalp200812@gmail.com</a> adresine başvurabilirsiniz.</p>
+        <div class="checkbox-area">
+            <input type="checkbox" id="aydinlatmaOnay" disabled checked>
+            <label for="aydinlatmaOnay"><strong>Okudum ve anladım.</strong> (Bu bir onay değil, bilgilendirme geri bildirimidir.)</label>
+        </div>
+    </div>
+
+    <hr class="separator">
+
+    <!-- AÇIK RIZA METNİ (Sadece gerekliyse gösterilir) -->
+    <div class="card">
+        <h2><span class="emoji">✅</span> Açık Rıza Metni (Gerekli Durumlar İçin)</h2>
+        <p>Aşağıdaki veri işleme faaliyetleri için <strong>açık rızanıza</strong> ihtiyaç duyulmaktadır:</p>
+        <ul>
+            <li><strong>Pazarlama İletişimi:</strong> Kampanya ve yeniliklerden haberdar olmak için e-posta/bildirim almak.</li>
+            <li><strong>Konum Verisi:</strong> Yakındaki kişileri bulmak için konumunuzun işlenmesi.</li>
+        </ul>
+        <p><em>Not: Bu faaliyetler için rıza vermek zorunlu değildir; rıza vermemeniz durumunda ilgili özellikler çalışmayacaktır.</em></p>
+        <div class="checkbox-area">
+            <input type="checkbox" id="acikRizaOnay">
+            <label for="acikRizaOnay"><strong>Yukarıdaki amaçlar için açık rıza veriyorum.</strong> (İsteğe bağlıdır, dilediğiniz zaman geri çekebilirsiniz.)</label>
+        </div>
+    </div>
+
+    <!-- GÜVENLİK UYARISI -->
+    <div class="card">
+        <h2><span class="emoji">🔐</span> Güvenlik ve Giriş Yöntemleri</h2>
+        <p>Nova'ya <strong>anonim giriş</strong>, <strong>Google</strong>, <strong>Facebook</strong>, <strong>X (Twitter)</strong> ve <strong>GitHub</strong> ile giriş yapabilirsiniz. E-posta eşleşmesi durumunda hesaplarınız otomatik olarak bağlanır. 🤝</p>
+        <div class="warning">
+            ⚠️ <strong>Önemli Güvenlik Uyarısı:</strong> Nova'da şu an için <strong>uçtan uca şifreleme bulunmamaktadır</strong>. Mesajlarınız Google Firebase'in güvenli sunucularında saklanır, ancak üçüncü taraflarca erişilebilme ihtimali vardır. Gelecek güncellemelerde bu özelliği eklemek için çalışıyoruz.
+        </div>
+    </div>
+
+    <!-- HESAP SİLME -->
+    <div class="card">
+        <h2><span class="emoji">🗑️</span> Hesap Silme</h2>
+        <p>Hesabınızı silmek için uygulama içinden veya <a href="mailto:muratalp200812@gmail.com" style="color: #53BDEB;">muratalp200812@gmail.com</a> adresine "Hesabımı Sil" konulu e-posta göndererek talepte bulunabilirsiniz. Talebiniz üzerine tüm verileriniz (mesajlar, medya, profil) en geç <strong>30 gün içinde</strong> kalıcı olarak silinir.</p>
+    </div>
+
+    <!-- İLETİŞİM -->
+    <div class="card">
+        <h2><span class="emoji">📬</span> Bize Ulaş!</h2>
+        <p><strong>E-posta:</strong> <a href="mailto:muratalp200812@gmail.com" style="color: #53BDEB;">muratalp200812@gmail.com</a></p>
+        <p><strong>Telefon:</strong> +90 530 971 48 14</p>
+        <p>Nova'yı tercih ettiğin için teşekkürler! <span class="emoji">💙</span></p>
+    </div>
+
+    <div class="footer">
+        <p>© 2026 Nova - Tüm Hakları Saklıdır.</p>
+        <p>Bu sayfa, Google Play, Google Cloud ve 6698 sayılı KVKK gereksinimlerine uygun olarak hazırlanmıştır.</p>
+    </div>
+
+</body>
+</html>
