@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/Nova_Logo.jpg" alt="Nova Logo" width="150" height="150" style="border-radius: 20%;" />
+  <img src="Nova_Logo.jpg" alt="Nova Logo" width="150" height="150" style="border-radius: 20%;" />
 </p>
 
 # Nova 🚀
