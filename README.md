@@ -10,7 +10,7 @@ Nova, WhatsApp ve YouTube'dan ilham alan, anlık mesajlaşma, görüntülü/sesl
 - 🎨 Mavi ve tatlı arayüz
 
 ## Gizlilik Politikası 🔐
-Uygulamamızın gizlilik politikasına ve KVKK aydınlatma metnine [buradan](https://BlueLight16.github.io/nova/) ulaşabilirsiniz.
+Uygulamamızın gizlilik politikasına ve KVKK aydınlatma metnine [buradan](https://novapp1.netlify.app/) ulaşabilirsiniz.
 
 ## Geliştirici 👨‍💻
 Murat Alp Yıldırım
